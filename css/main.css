@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.grey{background-color: grey;}
+.beige{background-color: beige;}
+.cadet{background-color: cadetblue;}
+.white{background-color: white;}
+
+/* header contents */
+.logo_img{
+    width:4rem;
+}
+
+@media (min-width: 992px)  {
+    .navbar-expand-lg .navbar-nav .nav-link{
+        padding-left:2.5rem;
+        padding-right: 2.5rem;
+    }
+}
+
+.name{
+    font-size: 1.4rem;
+}
+
+.cname{
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-weight: 800;
+    color:#47b4c4;
+}
+
+.title{
+    color:#a5a5a5;
+}
+
+.navbar-light .navbar-toggler{
+    border: none;
+}
+
+.navbar{
+    padding: 2rem 0rem;
+}
+
+
+/* main contents */
+
+.contents{
+    margin-top: 1rem;
+}
+
+.tile{
+    height: 18rem;
+}
+
