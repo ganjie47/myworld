@@ -4,6 +4,15 @@ body{
     font-family: 'Lato', sans-serif;
 }
 
+a{
+    color:#212121;
+    text-decoration: none;
+}
+
+a:hover{
+    color:#212121;
+}
+
 .grey{background-color: grey;}
 .beige{background-color: beige;}
 .cadet{background-color: cadetblue;}
