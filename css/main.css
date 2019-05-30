@@ -30,6 +30,19 @@ a:hover{
     width:4rem;
 }
 
+@media (min-width: 1600px) {
+    .container{
+        min-width:1350px;
+    }
+}
+
+@media (min-width: 2000px) {
+    .container{
+        min-width:1700px;
+    }
+}
+
+
 @media (min-width: 992px)  {
     .navbar-expand-lg .navbar-nav .nav-link{
         padding-left:2.5rem;
