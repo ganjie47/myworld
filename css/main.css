@@ -1,3 +1,7 @@
+html{
+    height:100%;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -74,8 +78,41 @@ a:hover{
 }
 
 .active{
-    border-bottom:2px solid #6acad6;
+    /*border-bottom:2px solid #6acad6;*/
 }
+
+/* Underline From Center */
+.hvr-underline-from-center {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+  }
+  .hvr-underline-from-center:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 51%;
+    right: 51%;
+    bottom: 0;
+    background: #6acad6;
+    height: 4px;
+    -webkit-transition-property: left, right;
+    transition-property: left, right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
+    left: 0;
+    right: 0;
+  }
+
+
 
 
 /* footer contents */
@@ -84,11 +121,12 @@ a:hover{
     width: 100%;
     margin-top: 4rem;
     height: 100px;
-    color:#fff;
+    border-top:1px solid #efefef;
 }
 
 .footer_text{
     line-height: 3rem;
+    font-size:0.9rem;
 }
 
 
@@ -109,7 +147,7 @@ a:hover{
 
 .blog_container{
     border:1px solid #efefef;
-    margin:1.8rem auto;
+    margin-bottom:1.8rem;
 }
 
 .blog_img{
