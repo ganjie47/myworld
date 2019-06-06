@@ -152,6 +152,8 @@ a:hover{
 
 .tile{
     height: 18rem;
+    padding:0;
+    max-height: 285px;
 }
 
 
