@@ -82,6 +82,13 @@ a:hover{
     color:#a5a5a5;
 }
 
+.navi_cn{
+    font-family: 'ZCOOL XiaoWei', serif;
+    color:#8e8e8e;
+    font-weight:600;
+    padding-left: 0.1rem;
+}
+
 .navbar-light .navbar-toggler{
     border: none;
 }
