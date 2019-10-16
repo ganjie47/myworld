@@ -107,9 +107,9 @@ a:hover{
     padding: 2rem 0rem;
 }
 
-.active{
-    /*border-bottom:2px solid #6acad6;*/
-}
+/*.active{
+    border-bottom:2px solid #6acad6;
+}*/
 
 /* Underline From Center */
 .hvr-underline-from-center {
@@ -191,4 +191,24 @@ a:hover{
     width: 100%;
     height: 320px;
     background-color: #454545;
+    margin-bottom: 1rem;
+}
+
+.intro{
+    
+}
+
+.intro_title{
+    font-weight: 700;
+    display: block;
+}
+
+.intro_txt{
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.intro_list{
+    display: block;
+    
 }
