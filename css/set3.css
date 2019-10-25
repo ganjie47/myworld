@@ -807,7 +807,7 @@ figure.effect-kira figcaption::before {
 }
 
 figure.effect-kira:hover img {
-	opacity: 0.5;
+	opacity: 0.9;
 }
 
 figure.effect-kira:hover p {

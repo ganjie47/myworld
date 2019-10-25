@@ -150,9 +150,9 @@ a:hover{
 .footer{
     width: 100%;
     margin-top: 2rem;
-    height: 100px;
+    /*height: 100px;*/
     border-top:1px solid #efefef;
-    background-color: #6acad6;
+    background-color: #47b4c4;
 }
 
 .footer_text{
@@ -218,3 +218,16 @@ a:hover{
     display: block;
     
 }
+
+/*detail page*/
+
+.product_banner{
+    overflow: hidden;
+}
+
+.img-responsive {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+   
